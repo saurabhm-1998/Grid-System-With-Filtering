@@ -99,9 +99,9 @@ mvn spring-boot:run
 
    {
 
-       "name": "John Doe",
+       "name": "Saurabh Mishra",
 
-       "totalMarks": 85
+       "totalMarks": 97
 
    }  
   
