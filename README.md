@@ -1,4 +1,4 @@
-# Grid-# Student Grid System Backend
+# Student Grid System with filtering Backend
 
 This project implements a grid system with filtering functionality for displaying student details and performing server-side filtering. It provides backend APIs for loading student details with pagination and implementing server-side filtering.
 
