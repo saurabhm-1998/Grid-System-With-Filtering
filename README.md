@@ -79,6 +79,35 @@ mvn spring-boot:run
 - GET `/students/filter?column=id&value=1&page=1&pageSize=10`: Filters student details by ID and retrieves the first page of filtered results.
 - POST `/students`: Creates a new student by providing the student object in the request body.
 
+## Usage
+
+1. Start the backend server by running the Spring Boot application.
+
+2. Use Postman or any other similar tool to interact with the backend APIs.
+
+3. Send requests to the following endpoints:
+
+   - **GET /students**: Retrieves a paginated list of all students.
+
+   - **GET /students/filter**: Filters students based on the specified criteria (column and value).
+
+   - **POST /students**: Creates a new student by sending a JSON payload containing student details.
+
+   Example JSON payload for creating a student:
+
+   ```json
+
+   {
+
+       "name": "John Doe",
+
+       "totalMarks": 85
+
+   }  
+  
+
+
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
